@@ -10,8 +10,8 @@ puts (0..1000).select {|n| n%3==0 || n%5==0}.inject(0) {|s,n| s+=n}
 =begin
 
 #SOLUTION explained!
-We first iterate over 1 to 1000 with .select method and select only the numbers that are multiples of 3 or 5. Then we call the .inject method to add all the numbers. 
-
+<li>We first iterate over 1 to 1000 with .select method and select only the numbers that are multiples of 3 or 5. Then we call the .inject method to add all the numbers. 
+</li>
 >>How "".inject" method works
 For example, let's say we have an array of numbers.
 
