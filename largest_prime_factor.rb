@@ -23,19 +23,14 @@ list_1 = []
 number.downto(2).each do |x|
   if prime_checker(x) == true && (number % x == 0)
   list_1.push(x)
-  print list_1.max
+  puts list_1.first
   end
 end
 end
 
+=begin
+when i call 13195, it puts out 29 four times instead of 1. And it is very \n
+slow when i try to run a big number. How the hell do i fix this, qatyler?
 
-#def largest_prime_factor(number)
-#list1.each do |x|
-#new_list = []
-#if number % x == 0
-#new_list.push(x)
-#puts new_list[0]
-#end
-#end
-#end
-#=end
+=end
+
