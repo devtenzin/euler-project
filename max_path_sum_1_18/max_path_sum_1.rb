@@ -50,7 +50,6 @@ grid.each do |arr|
   
   j += 1
 end
-n -= 1
 
 
 
