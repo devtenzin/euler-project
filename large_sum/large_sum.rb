@@ -113,7 +113,7 @@ list.each do |num|
   sum += num
 end
 
-return sum
+puts sum
 
 end
 
